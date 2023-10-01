@@ -1,5 +1,5 @@
  
-.header_form{
+.header-form{
     flex-direction: row;
     display: flex;
     width: 1440px;
@@ -10,7 +10,7 @@
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
     background: var(--WHITE, #FFF);
 }
-.header_text{
+.header-text{
     color: var(--NAVY-BLUE, #2E2F42);
     font-family: "Roboto";
     font-size: 16px;
@@ -19,7 +19,7 @@
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
 }
-.web_text1{
+.web-text-lf{
     margin: left 156px; top: 25.5px; bottom: 25.5px;
     color: var(--IRIS, #4D5AE5);
     font-family: "Raleway";
@@ -30,7 +30,7 @@
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
-.web_text2{
+.web-text-rt{
     color: var(--NAVY-BLUE, #2E2F42);
     font-family: "Raleway";
     font-size: 18px;
@@ -40,7 +40,7 @@
     letter-spacing: 0.54px;
     text-transform: uppercase;
 }
-.nav_text{
+.nav-text{
     margin-left: 76px;
     margin-right:332px;
     margin-top: 24px;
@@ -50,7 +50,7 @@
     gap: 40px;
     list-style: none;
 }
-.nav_text_br{
+.nav-text-br{
     color: var(--NAVY-BLUE, #2E2F42);
     /* Body Medium */
     font-family: "Roboto";
@@ -65,7 +65,7 @@
     display: flex;
     flex-direction: row;
 }
-.nav_contact{
+.nav-contact{
     margin-top: 24px;
     margin-bottom: 24px;
     display: inline-flex;
@@ -80,12 +80,13 @@
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
 }
-.main_size{
+.main-size{
     width: 1440px;
     height: 2076px;
-    font-family: "Roboto"
+    font-family: "Roboto";
+    color: "default";
 }
-.button_form{
+.button-form{
     padding-left: 427px;
     margin-top: 96px;
     margin-bottom: 72px;
@@ -98,7 +99,7 @@
     background: var(--CLOUD, #FFFFFF);
     gap: 24px;
 }
-.button_one{
+.button-one{
     
     display: flex;
     padding: 12px 24px;
@@ -107,7 +108,10 @@
     background: var(--OCEAN, #404BBF);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
-.button_txt_one{
+.button-one{
+    cursor: pointer;
+}
+.button-txt-one{
     color: var(--WHITE, #FFF);
     text-align: center;
     /* Button Text */
@@ -118,7 +122,7 @@
     line-height: 24px; /* 150% */
     letter-spacing: 0.64px;
 }
-.button_text{
+.buttons{
     color: var(--IRIS, #4D5AE5);
     text-align: center;
     /* Button Text */
@@ -129,7 +133,10 @@
     line-height: 24px; /* 150% */
     letter-spacing: 0.64px;
 }
-.card_col{
+.buttons:hover {
+    cursor: pointer;
+}
+.card-col{
     margin-bottom: 48px;
     padding-left: 156px;
     align-items: center;
@@ -138,12 +145,12 @@
     justify-content:space-between;  
     gap:48px
 }
-.card_img{
+.card-img{
     width: 360px;
     height: 300px;
     flex-shrink: 0;
 }
-.web_text{
+.web-text{
     color: var(--IRIS, #4D5AE5);
     font-family: "Raleway";
     font-size: 18px;
@@ -162,7 +169,7 @@
     gap: 32px;
     flex-shrink: 0;
 }
-.card_title{
+.card-title{
     color: var(--NAVY-BLUE, #2E2F42);
     font-family: "Roboto";
     font-size: 20px;
@@ -172,7 +179,7 @@
     letter-spacing: 0.4px;
     margin-left: 16px;
 }
-.card_comment{
+.card-comment{
     color: var(--SLATE, #434455);
 /* Body */
     font-family: "Roboto";
@@ -191,7 +198,7 @@
     flex-shrink: 0;
     background: var(--NAVY-BLUE, #2E2F42);
 }
-.foot_text1{
+.foot-text-lf{
     margin-top: 101.5px;
     margin-bottom: 17.5px;
     display: inline-flex;
@@ -202,7 +209,7 @@
     margin-left: 156px;
     color: var(--IRIS, #4D5AE5);
 }
-.foot_text2{
+.foot-text-rt{
     display: inline-flex;
     height: 24px;
     align-items: center;
@@ -214,7 +221,7 @@
     justify-content: center;
     color: var(--CLOUD, #F4F4FD);
 }
-.footer_txt_low{
+.footer-txt-low{
     height: 72px;
     width: 264px;
     margin-left: 156px;
@@ -238,17 +245,18 @@
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
     background: var(--CLOUD, #F4F4FD);
 }
-.main_frame{
+.main-frame{
     width : "1440px"; 
     height: "2592px";
+   
 }
-.main_prop_one{
+.main-prop-one{
     background: var(--NAVY-BLUE, #2E2F42);
     width: 1440px;
     height: 600px;
 }
 
-.main_prop_txt{
+.main-prop-txt{
     padding-top: 188px;
     padding-left: 472px;
     justify-content: center;
@@ -265,18 +273,18 @@
     line-height: 60px; /* 107.143% */
     letter-spacing: 1.12px;
 }
-.main_prop_two{
+.main-prop-two{
      
     background: #FFF;
 
 }
-.main_prop_three{
+.main-prop-three{
     margin-top : 120px;
     background: #FFF;
  
     flex-shrink: 0;
 }
-.order_btn{
+.order-btn{
     margin-left: 636px;
     margin-right:635px;
     margin-bottom:188;
@@ -289,8 +297,11 @@
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     
 }
-.order_btn:hover {opacity: 0.6}
-.btn_txt{
+.order-btn:hover {
+    cursor: pointer;
+    opacity: 0.6
+}
+.btn-txt{
     color: var(--WHITE, #FFF);
     /* Button Text */
     font-family: "Roboto";
@@ -302,12 +313,12 @@
 }
 
 
-.box_loc{
+.box-loc{
     align-items: center;
     padding-top: 120px;
     padding-left:150px;
 }
-.box_build{
+.box-build{
     display: inline-flex;
     width : 264px;
     flex-direction: column;
@@ -315,7 +326,7 @@
     gap: 8px;
    
 }
-.box_title{
+.box-title{
     color: var(--NAVY-BLUE, #2E2F42);
 
     /* Header 3 */
@@ -326,7 +337,7 @@
     line-height: 24px; /* 120% */
     letter-spacing: 0.4px;
 }
-.box_txt{
+.box-txt{
     color: var(--SLATE, #434455);
 
     /* Body */
@@ -338,7 +349,7 @@
     letter-spacing: 0.32px;
 }
 
-.team_duty{
+.team-duty{
     padding-top :72px;
    
     color: var(--NAVY-BLUE, #2E2F42);
@@ -353,10 +364,10 @@
     letter-spacing: 0.72px;
     text-transform: capitalize;
 } 
-.img_form{
+.img-form{
     padding-left: 150px;
 }
-.img_stack{
+.img-stack{
      
     width: 360px;
     display: inline-flex;
@@ -364,7 +375,7 @@
     align-items: flex-start;
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
 } 
-.team_form{
+.team-form{
     padding-left:156px;
     align-items: center;
     justify-content: center;
@@ -383,7 +394,7 @@
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
-.team_stack{
+.team-stack{
     align-items: center;
     width: 264px;
     display: inline-flex;
@@ -396,7 +407,5 @@
     background: var(--WHITE, #FFF);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     }
-.team_font{  
 
-}
  
