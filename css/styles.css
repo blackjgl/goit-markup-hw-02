@@ -122,7 +122,13 @@
 }
 .button-one:hover{
     cursor: pointer;
+    
+    color:violet;
 }
+.button-one:focus{
+    color:violet;
+}
+
  
 .buttons{
     color: var(--IRIS, #4D5AE5);
@@ -137,6 +143,10 @@
 }
 .buttons:hover {
     cursor: pointer;
+    color: violet;
+}
+.buttons:focus{
+    color:violet;
 }
 .card-col{
     margin-bottom: 48px;
