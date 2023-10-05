@@ -85,7 +85,7 @@
 }
 .main-size{
     width: 1440px;
-    height: 2076px;
+    height: 2208px;
     font-family: "Roboto";
     color: "default";
 }
@@ -396,15 +396,7 @@
 
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
-
-    /* Header 2 */
-    
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.111em; /* 111.111% */
-    letter-spacing: 0.72px;
-    text-transform: capitalize;
+ 
 }
 .team-stack{
     align-items: center;
@@ -422,4 +414,15 @@
 .font-family{
     font-family: "Roboto";
 }
- 
+.h2{ 
+    font-family: "Roboto";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+.h3{
+
+}
