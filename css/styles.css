@@ -88,6 +88,11 @@
     height: 2208px;
     font-family: "Roboto";
     color: "default";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.500em; /* 150% */
+    letter-spacing: 0.32px;
 }
 .button-form{
     padding-left: 427px;
@@ -334,24 +339,14 @@
 .box-title{
     color: var(--NAVY-BLUE, #2E2F42);
 
-    /* Header 3 */
-    font-family: "Roboto";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.200em; /* 120% */
-    letter-spacing: 0.4px;
+  
 }
 .box-txt{
     color: var(--SLATE, #434455);
 
     /* Body */
  
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.500em; /* 150% */
-    letter-spacing: 0.32px;
+    
 }
 
 .team-duty{
@@ -423,5 +418,11 @@
     text-transform: capitalize;
 }
 .h3{
-
+     /* Header 3 */
+    font-family: "Roboto";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.200em; /* 120% */
+    letter-spacing: 0.4px;
 }
