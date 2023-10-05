@@ -414,6 +414,17 @@
 .font-family{
     font-family: "Roboto";
 }
+.h1{
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    /* Header 1 */
+    font-family: "Roboto";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 107.143% */
+    letter-spacing: 1.12px;
+}
 .h2{ 
     font-family: "Roboto";
     font-size: 36px;
