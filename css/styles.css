@@ -276,14 +276,7 @@
     width: 496px;
     color: var(--WHITE, #FFF);
     text-align: center;
-
-    /* Header 1 */
-    font-family: "Roboto";
-    font-size: 56px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.071em; /* 107.143% */
-    letter-spacing: 1.12px;
+ 
 }
 .main-prop-two{
      
@@ -366,15 +359,6 @@
    
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
-    
-    /* Header 2 */
-   
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.111em; /* 111.111% */
-    letter-spacing: 0.72px;
-    text-transform: capitalize;
 } 
 .img-form{
     padding-left: 150px;
@@ -422,15 +406,19 @@
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
-    line-height: 60px; /* 107.143% */
+    line-height: 1.071em; /* 107.143% */
     letter-spacing: 1.12px;
 }
 .h2{ 
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    
+    /* Header 2 */
     font-family: "Roboto";
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 40px; /* 111.111% */
+    line-height: 1.111em; /* 111.111% */
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
