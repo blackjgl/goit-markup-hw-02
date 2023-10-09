@@ -139,8 +139,9 @@
     padding-left: 427px;
     margin-top: 96px;
     margin-bottom: 72px;
-    display: flex;
-    padding: 12px 24px;
+    display: inline-flex;
+    flex-direction: row;
+   
     justify-content: center;
     align-items: center;
     border-radius: 4px;
@@ -148,35 +149,11 @@
     background: var(--CLOUD, #FFFFFF);
     gap: 24px;
 }
-.button-one{
-    
-    display: flex;
-    padding: 12px 24px;
-    align-items: flex-start;
-    border-radius: 4px;
-    background: var(--OCEAN, #404BBF);
-    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
-    color: var(--WHITE, #FFF);
-    text-align: center;
-    /* Button Text */
-    font-family: "Roboto";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.500em; /* 150% */
-    letter-spacing: 0.64px;
-}
-.button-one:hover{
-    cursor: pointer;
-    
-    color:violet;
-}
-.button-one:focus{
-    color:violet;
-}
-
- 
 .buttons{
+    padding: 12px 24px;
+    border-radius: 4px;
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--CLOUD, #F4F4FD);
     color: var(--IRIS, #4D5AE5);
     text-align: center;
     /* Button Text */
@@ -194,8 +171,34 @@
 .buttons:focus{
     color:violet;
 }
+.buttons-first{
+    padding: 12px 24px;
+    background: var(--OCEAN, #404BBF);
+    border-radius: 4px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    /* Button Text */
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.500em; /* 150% */
+    letter-spacing: 0.64px;
+}
+.buttons:nth-child(2-5){
+    border-radius: 4px;
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--CLOUD, #F4F4FD);
+}
+.buttons-first:hover{
+    cursor: pointer;
+    color:violet;
+}
+.buttons-first:focus{
+    color:violet;
+}
 .card-col{
-     
     margin-bottom: 48px;
     padding-left: 156px;
     align-items: center;
