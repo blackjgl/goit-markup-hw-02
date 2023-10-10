@@ -56,6 +56,7 @@
     letter-spacing: 0.32px;
 }
 .web-text-lf{
+    text-decoration:none ;
     list-style: none;
     margin: left 156px; top: 25.5px; bottom: 25.5px;
     color: var(--IRIS, #4D5AE5);
@@ -68,6 +69,7 @@
     text-transform: uppercase;
 }
 .web-text-rt{
+    text-decoration:none ;
     list-style: none;
     color: var(--NAVY-BLUE, #2E2F42);
     font-family: "Raleway";
@@ -102,6 +104,8 @@
     flex-direction: row;
 }
 .nav-contact{
+    text-decoration: none;
+    color: var(--SLATE, #434455);
     list-style: none;
     margin-top: 24px;
     margin-bottom: 24px;
@@ -109,7 +113,9 @@
     align-items: flex-start;
     gap: 40px;
 }
-.nax-contact-br{
+.nav-contact-br{
+    text-decoration: none;
+    list-style: none;
     color: var(--SLATE, #434455);
     /* Body */
     font-family:"Roboto";
