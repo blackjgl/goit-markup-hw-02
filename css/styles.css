@@ -10,9 +10,12 @@
     --white: #FFFFFF;
 }
  
+
+
+
 .h2{
     /* Header 2 */
-    color: var(--navy-blue);
+    
     font-family:inherit;
     font-size: 36px;
     font-weight: 700;
@@ -21,7 +24,6 @@
     text-transform: capitalize;
 }
 .h3{
-    color: var(--navy-blue);
     font-family:inherit;
     font-size: 20px;
     font-weight: 500;
@@ -45,7 +47,7 @@
     text-decoration: none;
  
 }
-.page{
+.page .h2 .h3 .logo-black .wrwd{
     color: var(--NAVY-BLUE);
 }
 .logo{
@@ -64,9 +66,7 @@
 .logo-white{
     color: var(--white);
 }
-.logo-black .wrwd{
-    color: var(--navy-blue);
-}
+
 .nav-menu .page{
     font-size:16px;
     font-weight: 500;
