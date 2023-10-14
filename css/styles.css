@@ -21,7 +21,7 @@
     text-transform: capitalize;
 }
 .h3{
-    color: var(--navy-blue);
+     
     font-family:inherit;
     font-size: 20px;
     font-weight: 500;
@@ -39,19 +39,21 @@
 }
 .list{
     list-style: none;
+   
  
 }
 .links{
     text-decoration: none;
- 
 }
 .page{
     color: var(--NAVY-BLUE);
 }
+.logo-web{
+    color: var(--IRIS, #4D5AE5);
+ 
+}
 .logo{
-    color: var(--iris);
     padding-left:156px;
-   
     font-family: "Raleway", "sans serif";
     font-size: 18xp;
     font-weight: 800;
@@ -61,7 +63,7 @@
 
     
 }
-.logo-white{
+.logo-white  {
     color: var(--white);
 }
 .logo-black .wrwd{
@@ -81,13 +83,12 @@
 .page-header{
     font-family: "Roboto", "sans-serif";
     font-size: 16px;
-    
     font-weight: 500;
     line-height: 1.500em; /* 150% */
     letter-spacing: 0.32px;
 }
 .logo{
-    margin-left: 156px; top: 25.5px; bottom: 25.5px;
+    padding-left: 156px; top: 25.5px; bottom: 25.5px;
     color: var(--IRIS);
     text-transform: uppercase;
 }
@@ -350,8 +351,7 @@
     }
     .footer-comment{
         color: var(--CLOUD);
-        padding-left:156px;
-        width: 264px;
+     
        
     }
     .footer-gap{
@@ -359,4 +359,7 @@
     }
     .footer-gapp{
         margin-top: 1608px;
+    }
+    .pad-lf{
+        padding-left:156px;
     }
